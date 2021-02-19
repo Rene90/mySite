@@ -1,0 +1,162 @@
+.image {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  display: block;
+  min-height: 100vh;
+  min-width: 100%;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+
+  background-image: url('/static/coordenadas/images/rene.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.rightcontent {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  background-color: #807209;
+}
+
+.content {
+  overflow: auto;
+}
+.bio-links {
+  border-bottom: 1px solid #848d96;
+  text-decoration: none;
+}
+.bio {
+  margin-bottom: 40px;
+  font-family: 'Shadows Into Light',cursive, sans-serif;
+
+  color: #848d96;
+  font-size: 21px;
+  line-height: 140%;
+}
+.name {
+  margin-bottom: 40px;
+  color: #47bec7;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.tagline {
+  margin-bottom: 40px;
+  color: #ddd;
+  font-size: 58px;
+  line-height: 100%;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+.leftcontent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: "Shadows Into Light",cursive,sans-serif;
+}
+.slider {
+    position: sticky;
+    top: 10px;
+    right: 20px;
+    width: 150px;
+    color: #14d81a;
+    font-family: 'Shadows Into Light',cursive,sans-serif;
+    text-align: center;
+}
+.slider input {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+.black {
+  background-color: black;
+  color: white;
+
+  text-align:center;
+  background-color:black;
+
+}
+.black h1 {
+
+  vertical-align:middle;
+  margin:auto;
+}
+.text-block-2 {
+  margin-bottom: 20px;
+  color: #51ed18;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.links {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 100%;
+  margin-bottom: 40px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+canvas{
+      position:fixed;
+
+      left:0;
+      top:0;
+      z-index:-1;
+
+    }
+.top{
+  z-index:-0;
+  opacity: .7;
+  text-align: center;
+
+}
+.verde{
+  color: #51ed18;
+}
+.azul{
+  color:#18d8ed;
+  font-size: 1.5em;
+  font-family: 'Shadows Into Light',cursive,sans-serif;
+}
+h1{
+  font-family: 'Amatic SC', cursive, serif;
+
+}
+
+.biofont{
+  font-family: 'Shadows Into Light',cursive,sans-serif;
+  color: white;
+}
+
+.biofontt{
+  font-family: 'Shadows Into Light',cursive,sans-serif;
+  color: #14d81a;
+  font-size: 1.5em;
+}
+.geompro{
+  font-size: 3em;
+}

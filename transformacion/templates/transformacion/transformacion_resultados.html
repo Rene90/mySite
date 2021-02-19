@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+
+
+{% if equiss %}
+  <ul class="list-group top">
+      {% for value in equiss %}
+          <li class="list-group-item">Latitud:{{ value.lat }} </li>
+          <li class="list-group-item">Longitud:{{ value.lon }}</li>
+          <li class="list-group-item">Altura:{{ value.h }}</li>
+          <li class="list-group-item">X:{{ value.x }}</li>
+          <li class="list-group-item">Y:{{ value.y }}</li>
+          <li class="list-group-item">Z:{{ value.z }}</li>
+
+
+            {{ value.mapa|safe }}
+
+      {% endfor %}
+  </ul>
+  {{ value.mapa|safe }}
+{% else %}
+  <strong>No hay nada</strong>
+{% endif %}
+<a href="{% url 'transformacion:convert'%}" class="btn btn-lg btn-block btn-warning"><span class="fa fa-check-circle-o"></span> Transformar más</a>
+</div>
+
+{%endblock%}

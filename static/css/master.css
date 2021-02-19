@@ -1,0 +1,19 @@
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+.slider {
+
+    color: white;
+    font-family: sans-serif;
+    text-align: right;
+    position: sticky;
+}
+.slider input {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.list li a {
+  color:#51ed18;
+}
